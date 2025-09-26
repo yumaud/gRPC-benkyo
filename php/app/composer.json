@@ -1,0 +1,12 @@
+{
+    "name": "yumaud/grpc-benkyo",
+    "description": "A PHP gRPC example project",
+    "type": "project",
+    "require": {
+        "grpc/grpc": "^1.57",
+        "google/protobuf": "^4.30"
+    },
+    "autoload": {
+        "psr-4": {}
+    }
+}

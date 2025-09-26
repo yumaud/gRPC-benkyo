@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  php-grpc-server:
+    build:
+      context: ./php/Docker
+      dockerfile: DockerFile
+    ports:
+      - "50051:50051"
+    volumes:
+      - ./php:/app
+    command: ["php", "/app/server.php"] 
